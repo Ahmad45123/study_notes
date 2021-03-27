@@ -1,4 +1,5 @@
 Welcome to my Study Notes Site!
+Access it rendered here: https://ahmad45123.github.io/study_notes
 
 # Contents: 
 ## Semester 4
