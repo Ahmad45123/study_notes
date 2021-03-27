@@ -82,7 +82,7 @@ The following are used to present quantitative data.
 - The height of a bar represents the frequency of a class.
 - Histograms provide a quick picture of the main characteristic of the data.
 
-![Histogram](./media/histogram.png)
+![Histogram](./assets/histogram.png)
 
 ### Ogives
 - Displayes data by using lines connecting points.
@@ -90,7 +90,7 @@ The following are used to present quantitative data.
 - The y-coordinate represents the class **cumulative frequency**.
 - Ogives are useful for determining the number of values below a value.
 
-![Ogives](media/Ogive.png)
+![Ogives](./assets/Ogive.png)
 
 - **Upper class limit** is the bigger value of the range.
 
@@ -107,12 +107,12 @@ The following are used to present quantitative data.
 - Connect points with straight lines.
 - Draw a line to x-axis to the points of equal distances to the prev and next midpoints.
 
-![Freq Poly](media/freq-poly.png)
+![Freq Poly](./assets/freq-poly.png)
 
 ### Pie Charts
 Used to represent qualitative data!
 
-![Pie](media/piechart.png)
+![Pie](./assets/piechart.png)
 
 ## Step 3: Summarization
 
