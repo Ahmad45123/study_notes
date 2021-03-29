@@ -36,3 +36,6 @@ complex.
 > **Note:** Phasor analysis applies only when frequency is constant; when it is applied to two or more sinusoid signals only if they have the same frequency. 
 
 ![picture 2](assets/lecture1-phasor_transform_help.png)  
+
+## Notes
+- To convert from $cos$ to $sin$, we subtract $90^\degree$ from phase angle if $sin$ is positive, otherwise add the $90\degree$!
