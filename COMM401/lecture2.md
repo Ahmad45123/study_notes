@@ -12,7 +12,7 @@ $$ T_0 = \frac{2\pi}{|\omega_0|} $$
   
 $$ e^{j\omega t} = cos(\omega t) + jsin(\omega t)$$ 
 
-> **NOTE**: $|e^{jx}| = 1$ because $\sqrt{cos(\omega t)^2 + sin(\omega t)^2} = 1$
+> **NOTE**: $|e^{j\omega t}| = 1$ because $\sqrt{cos(\omega t)^2 + sin(\omega t)^2} = 1$
 
 # Periodicity
 Notice that the fundamental period is inversely propotional to $\omega_0$.
@@ -44,8 +44,12 @@ Because $e^{j2\pi n} = 1$ for any **integer** value of $n$!
 > Continuous time signals are periodic for any values of $\omega_0$.
 
 ## Notes in Periodicity
-- Periodic $\plusmn$ Non-Periodic = Non-Periodic
-- Periodic $\times$ Non-Periodic = Non-Periodic
+- Periodic $\plusmn$ A-Periodic = A-Periodic
+- Periodic $\times$ A-Periodic = A-Periodic
+- A-Periodic $\plusmn$ A-Periodic = MUST DRAW
+- Unit step functions $u(t)$ & $u[n]$ are aperiodic signals.
+- Any DC signal (constant) is periodic with arbitrary period.
+- Adding or multiplying by a constant doesn’t affect periodicity
 - Periodic $\plusmn$ Periodic = 
   - **For DT Signals**: Periodic
   - **For CT Signals**: Periodic IF $\frac{T_{01}}{T_{02}}$ or $\frac{\omega_{01}}{\omega_{02}}$ is rational number. The total period is the LCM of both periods.

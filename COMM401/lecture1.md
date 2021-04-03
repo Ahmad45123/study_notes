@@ -45,7 +45,7 @@ the following operations:
 ## Energy
 Power is the energy per unit time so if you integrate instant power **squared** over all time, it gives total energy!
 - For CT Signals: $$E_\infty = \int_{-\infty}^{\infty} \left| x(t) \right|^2 dt$$
-- For DT Signals: $$E_\infty = \sum_{-\infty}^{\infty} \left| x[n] \right|^2 dt$$
+- For DT Signals: $$E_\infty = \sum_{-\infty}^{\infty} \left| x[n] \right|^2$$
 
 In order to know the actual physical energy of a signal, one must multiply it by a constant factor. For example if $x(t)$ is a current signal, you must multiply it by $Z$, the impedence of the circuit in order to determine the Energy. $E = ZI^2$
 
