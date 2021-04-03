@@ -15,6 +15,11 @@ $$ e^{j\omega t} = cos(\omega t) + jsin(\omega t)$$
 # Periodicity
 Notice that the fundamental period is inversely propotional to $\omega_0$.
 
+## Periodicity in Continuous Time
+All sinusoidal signals and complex exponential signals are always periodic with fundamental period $T$.
+
+$$ T = \frac{2\pi}{\omega_0} $$
+
 ## Periodicity in Discrete Time
 According to the defination of periodicity for period $N > 0$, $e^{j\omega_0 N} = 1$
 
