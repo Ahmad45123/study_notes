@@ -52,7 +52,7 @@ In order to know the actual physical energy of a signal, one must multiply it by
 ## Power
 Power is defined as the amount of energy consumed per unit time. This quantity is useful if the energy of the signal goes to infinity or the signal is "not-squarely-summable". 
 
-- In continuous domain: $$P_\infty = lim_{T\rightarrow \infty} \frac{1}{2T} \sum_{-T}^{T} \left| x(t) \right|^2 dt$$
+- In continuous domain: $$P_\infty = lim_{T\rightarrow \infty} \frac{1}{2T} \int_{-T}^{T} \left| x(t) \right|^2 dt$$
 - In discrete domain: $$P_\infty = lim_{N\rightarrow \infty} \frac{1}{2N+1} \sum_{-N}^{N} \left| x[n] \right|^2$$
 - For periodic signals: $$P = \frac{1}{T_0} \int_{\frac{-T_0}{2}}^{\frac{T_0}{2}} \left| x_p(t) \right|^2 dt$$
 
