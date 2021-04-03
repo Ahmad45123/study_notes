@@ -12,6 +12,8 @@ $$ T_0 = \frac{2\pi}{|\omega_0|} $$
   
 $$ e^{j\omega t} = cos(\omega t) + jsin(\omega t)$$ 
 
+> **NOTE**: $|e^{jx}| = 1$ because $\sqrt{cos(\omega t)^2 + sin(\omega t)^2} = 1$
+
 # Periodicity
 Notice that the fundamental period is inversely propotional to $\omega_0$.
 
