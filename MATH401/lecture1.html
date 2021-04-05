@@ -230,6 +230,52 @@ To determine the midpoint we follow the following steps:</p>
 <li>Sort the values then identify the value with the highest frequency.</li>
 <li>The intuition is that the value with most frequency is the most typical in the population.</li>
 </ul>
+<h1 id="summary">Summary</h1>
+<h2 id="data-organization">Data Organization</h2>
+<ul>
+<li>If the number of classes is given and the given data values are integers: we proceed using the direct method we covered in Lecture 1.</li>
+<li>If the number of classes is NOT given and the given data values are integers or decimals: we have two cases:
+<ul>
+<li>If an initial value is NOT given, we proceed using the <strong>Stem-leaf</strong> method.</li>
+<li>If an initial value is given, we proceed using the <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msqrt><mi>n</mi></msqrt></mrow><annotation encoding="application/x-tex">\sqrt{n}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.23972em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8002800000000001em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord mathdefault">n</span></span></span><span style="top:-2.76028em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702
+c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
+c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
+c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
+s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
+c69,-144,104.5,-217.7,106.5,-221
+l0 -0
+c5.3,-9.3,12,-14,20,-14
+H400000v40H845.2724
+s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
+c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
+M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.23972em;"><span></span></span></span></span></span></span></span></span></eq> method.</li>
+</ul>
+</li>
+</ul>
+<h4 id="if-the-number-of-classes-is-given-">If the number of classes is given ?</h4>
+<ul>
+<li>Find the Range: <strong>Range = Largest Value − Smallest Value</strong></li>
+<li>Determine the class Width <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>=</mo><mfrac><mrow><mi>R</mi><mi>a</mi><mi>n</mi><mi>g</mi><mi>e</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>N</mi><mi>o</mi><mi mathvariant="normal">.</mi><mi>O</mi><mi>f</mi><mi>C</mi><mi>l</mi><mi>a</mi><mi>s</mi><mi>s</mi><mi>e</mi><mi>s</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">= \frac{Range + 1}{No. Of Classes}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.4055469999999999em;vertical-align:-0.481108em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.924439em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">N</span><span class="mord mathdefault mtight">o</span><span class="mord mtight">.</span><span class="mord mathdefault mtight" style="margin-right:0.02778em;">O</span><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span><span class="mord mathdefault mtight" style="margin-right:0.07153em;">C</span><span class="mord mathdefault mtight" style="margin-right:0.01968em;">l</span><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">s</span><span class="mord mathdefault mtight">s</span><span class="mord mathdefault mtight">e</span><span class="mord mathdefault mtight">s</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.446108em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.00773em;">R</span><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">n</span><span class="mord mathdefault mtight" style="margin-right:0.03588em;">g</span><span class="mord mathdefault mtight">e</span><span class="mbin mtight">+</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.481108em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></eq> and <strong>round up IF NOT</strong> integer!</li>
+<li>Lower limit of class = Smallest Value.</li>
+<li>Upper limit of class = Lower Limit + Width</li>
+<li>Count occurances and construct F.D.</li>
+</ul>
+<h4 id="if-the-number-of-classes-is-not-given-and-no-initial-value-stem-leaf">If the number of classes is NOT given and NO initial value (Stem-Leaf)</h4>
+<ul>
+<li>We split each value into 2 parts:
+<ul>
+<li><strong>The stem</strong>: The leftmost digits.</li>
+<li><strong>The Leaf</strong>: The remaining right digits.</li>
+</ul>
+</li>
+<li>List the stems in a vertical coloumn with each leaf opposite to its stem.</li>
+</ul>
+<h2 id="data-summary">Data Summary</h2>
+<ul>
+<li><strong>Mode</strong> is the most frequent value in the data set.</li>
+<li><strong>Median</strong> is the middle point of the data set, when the latter is arranged in increasing or decreasing order. If two values are in the middle, then their half-sum is taken.</li>
+<li><strong>Mean</strong> for Samples consisting of Discrete “individual” data values: <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi>x</mi><mo>ˉ</mo></mover><mo>=</mo><mfrac><mrow><mo>∑</mo><mi>x</mi></mrow><mi>n</mi></mfrac></mrow><annotation encoding="application/x-tex">\bar{x} = \frac{\sum x}{n}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.56778em;vertical-align:0em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.56778em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">x</span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.22222em;"><span class="mord">ˉ</span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.3550069999999999em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0100069999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">n</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485007em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mop op-symbol small-op mtight" style="position:relative;top:-0.0000050000000000050004em;">∑</span><span class="mspace mtight" style="margin-right:0.19516666666666668em;"></span><span class="mord mathdefault mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></eq></li>
+</ul>
 
     </body>
     </html>

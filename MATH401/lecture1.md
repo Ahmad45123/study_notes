@@ -142,3 +142,30 @@ It's the data value that has the highest frequency in a data set.
 - Exists for both qualitative and quantitative data.
 - Sort the values then identify the value with the highest frequency.
 - The intuition is that the value with most frequency is the most typical in the population.
+
+
+
+# Summary
+## Data Organization
+- If the number of classes is given and the given data values are integers: we proceed using the direct method we covered in Lecture 1.
+- If the number of classes is NOT given and the given data values are integers or decimals: we have two cases:
+  - If an initial value is NOT given, we proceed using the **Stem-leaf** method.
+  -  If an initial value is given, we proceed using the $\sqrt{n}$ method.
+
+#### If the number of classes is given ?
+- Find the Range: **Range = Largest Value − Smallest Value**
+- Determine the class Width $= \frac{Range + 1}{No. Of Classes}$ and **round up IF NOT** integer!
+- Lower limit of class = Smallest Value.
+- Upper limit of class = Lower Limit + Width
+- Count occurances and construct F.D.
+
+#### If the number of classes is NOT given and NO initial value (Stem-Leaf)
+- We split each value into 2 parts: 
+  - **The stem**: The leftmost digits.
+  - **The Leaf**: The remaining right digits.
+- List the stems in a vertical coloumn with each leaf opposite to its stem.
+
+## Data Summary
+- **Mode** is the most frequent value in the data set.
+- **Median** is the middle point of the data set, when the latter is arranged in increasing or decreasing order. If two values are in the middle, then their half-sum is taken.
+- **Mean** for Samples consisting of Discrete “individual” data values: $\bar{x} = \frac{\sum x}{n}$
