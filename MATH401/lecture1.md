@@ -159,6 +159,13 @@ It's the data value that has the highest frequency in a data set.
 - Upper limit of class = Lower Limit + Width
 - Count occurances and construct F.D.
 
+#### If an initial value is given but NO number of classes
+- Calculate the number of classes as the nearest integer to $\sqrt{n}$, where $n$ is the number of data we have.
+- **The Range** = Largest value - Initial value
+- **The class width** = $\frac{Range}{No. of Classes}$
+, must be rounded up “up to the
+same number of digits in the decimal part of the given data set”.
+
 #### If the number of classes is NOT given and NO initial value (Stem-Leaf)
 - We split each value into 2 parts: 
   - **The stem**: The leftmost digits.
