@@ -106,3 +106,6 @@ Quartiles simply split the data into 4 equal parts splitting at $Q1$, $Q2$ and $
 - **Normal**: If its Histogram is bell-shaped with peak at exact median.
 - **Approx. Normal**: If its Histogram is approximately a normal one.
 - **Skewed**: not approximately symmetric about its sample median.
+
+# Summing up Lec1 and Lec2
+![picture 2](assets/lecture2-lec1andlec2.png)  
