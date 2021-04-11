@@ -5,5 +5,8 @@
     "markdown.extension.print.absoluteImgPath": false,
     "markdown.extension.print.onFileSave": true,
     "markdown-image.local.path": "assets",
-    "markdown-image.base.fileNameFormat": "${mdname}-${filename}"
+    "markdown-image.base.fileNameFormat": "${mdname}-${filename}",
+    "files.exclude": {
+        "**/*.html": true
+    }
 }
