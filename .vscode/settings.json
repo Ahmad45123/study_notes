@@ -2,7 +2,6 @@
     "markdown.styles": [
         "md-styles.css"
     ],
-    "markdown.extension.preview.autoShowPreviewToSide": true,
     "markdown.extension.print.absoluteImgPath": false,
     "markdown.extension.print.onFileSave": true,
     "markdown-image.local.path": "assets",
