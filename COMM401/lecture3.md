@@ -10,7 +10,7 @@
 ## Time Invariance
 - Input $x_1(t)$ to the system to get $y_1(t)$
 - Input $x_2(t)$ to the system to get $y_2(t)$ where $x_2(t) = x_1(t-t_0)$
-- If $y_2(t) = y1(t-t_0)$ then the system is time invariant.
+- If $y_2(t) = y_1(t-t_0)$ then the system is time invariant.
 - Otherwise, it's time variant. *(NOT time invariant)*
 
 ## Memory
