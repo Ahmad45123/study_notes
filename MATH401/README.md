@@ -3,3 +3,4 @@
 - [Lecture 1 - Basics of Statistics](./lecture1.html)
 - [Lecture 2 - Basic Cont.](./lecture2.html)
 - [Lecture 3 - Counting](./lecture3.html)
+- [Lecture 4 - Probability](./lecture4.html)
