@@ -39,6 +39,10 @@ A system is invertible if a distinct input leads to a distinct output.
 - LTI systems can be easily studied in detail.
 - They're characterized by their unit impluse response $h(t)$ which is the output when input is $\delta(t)$.
 
+$$ y[n] = \sum_{k=-\infty}^{\infty} x[k]h[n-k] $$
+
+The above sum is called the convolution sum and is denoted by the symbol $*$
+
 ## Conditions
 
 | Property      | Rule                                         |
