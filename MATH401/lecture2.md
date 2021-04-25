@@ -78,7 +78,7 @@ $$
 # Chebyshev’s Theorem
 Specifies the portions of the spread in terms of the S.D
 
-The proportion of values from a data set will fall within $k$ standard deviations of the mean $\bar{X}$ lying in the interval $[X-ks, X+ks]$ will be at least $\frac{\displaystyle 1}{\displaystyle 1/k^2}$
+The proportion of values from a data set will fall within $k$ standard deviations of the mean $\bar{X}$ lying in the interval $[X-ks, X+ks]$ will be at least $1 - \frac{\displaystyle 1}{\displaystyle k^2}$
 
 > $k$ must be greater than 1.
 
