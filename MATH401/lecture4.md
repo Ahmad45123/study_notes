@@ -14,6 +14,8 @@ $$  P(E) = \frac{N(E)}{N(S)} $$
 ## Addition Rule
 $$ P(E \cup F) = P(E) + P(F) - P(E \cap F)$$
 
+> If events are **mutually exclusive** $E$ and $F$, then $P(E \cup F) = P(E) + P(F)$
+
 ### How about 3 events ?
 We must add the part that was removed twice.
 
@@ -43,4 +45,9 @@ $$ P(A\ and\ B) = P(A) \cdot P(B)$$
 > Events are **mutually exclusive** when the occurrence of any one event implies that none of the others can occur at the same time: i.e., $P(A\ and\ B) = 0$.
 
 ## Conditional Probability
+It's the probability of an event occuring given that another event has already occured first.
 
+$$ P(A|B) = \frac{P(A\ and\ B)}{P(B)} $$
+It's called *probability of A given B*.
+
+> Two events A and B are called independent if $P(A\cap B) = P(A)\cdot P(B)$ at which $P(A|B) = P(A)$
