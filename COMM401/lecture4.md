@@ -18,7 +18,23 @@ $$ s(t) = \int_{-\infty}^{t} h(\tau) d\tau$$
 $$ h(t) = \frac{d\ s(t)}{dt} $$
 
 
-## Important Rules
+# Important Rules
 - $x(t)*\delta(t) = x(t)$
 - $x(t)*\delta(t-a) = x(t-a)$
 - $x(t-b)*\delta(t-a) = x(t-a-b)$
+
+# Properties of LTI Systems
+## Commutative Property
+$$ x(t) * h(t) = h(t) * x(t)$$
+
+## Distributive Property
+$$ x(t) * (h_1(t) + h_2(t)) = x(t)*h_1(t) + x(t)*h_2(t)$$
+
+![picture 1](assets/lecture4-distributive_parallel.png)  
+
+## Associative Property
+$$ x(t) * (h_1(t) * h_2(t)) = (x(t) * h_1(t)) * h_2(t) $$
+
+![picture 2](assets/lecture4-cascade_systems.png)  
+
+> Order in a cascade of LTI systems is irrelavent.
