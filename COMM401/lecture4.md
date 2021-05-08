@@ -38,3 +38,10 @@ $$ x(t) * (h_1(t) * h_2(t)) = (x(t) * h_1(t)) * h_2(t) $$
 ![picture 2](assets/lecture4-cascade_systems.png)  
 
 > Order in a cascade of LTI systems is irrelavent.
+
+## Tips
+- If $h[n]$ is simply some delta functions, $y[n]$ will be some replica of $x[n]$ in the locations of the delta functions.
+    
+    ### Example: 
+    If $x[n]$ is equal some function and 
+    $h[n] = 2\delta[n+1] + 2\delta[n-1]$ then $y[n]$ is simply equal to $2x[n+1] + 2x[n-1]$
