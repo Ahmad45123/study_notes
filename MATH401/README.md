@@ -5,3 +5,4 @@
 - [Lecture 3 - Counting](./lecture3.html)
 - [Lecture 4 - Probability](./lecture4.html)
 - [Lecture 5 - Probability Cont.](./lecture5.html)
+- [Lecture 6 - Probability Dist. And Bernoulli Experiments](./lecture6.html)
