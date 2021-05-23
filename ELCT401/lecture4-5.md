@@ -53,4 +53,4 @@ $$ C = \frac{Q_C}{\omega V_{rms}^2} = \frac{P (tan\theta_1 - tan\theta_2)}{\omeg
 # Maximum Power Transfer
 Occurs when the load is the conjugate of the Thevenin Impedance. $Z_L = Z_{th}^*$
 
-$$ P_{max} = \frac{1}{4} \frac{|V_{th}|^2}{R_L} = \frac{1}{8} \frac{V_m^2}{R_L}$$
+$$ P_{max} = \frac{|V_{th}|^2}{8 R_{th}}$$
