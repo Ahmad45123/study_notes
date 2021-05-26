@@ -25,7 +25,7 @@ $$ T = \frac{2\pi}{\omega_0} $$
 ## Periodicity in Discrete Time
 According to the defination of periodicity for period $N > 0$, $e^{j\omega_0 N} = 1$
 
-This condition can be fulfilled if there exists such an integer number $m$ that $w_o m = 2\pi m$
+This condition can be fulfilled if there exists such an integer number $m$ that $w_o N = 2\pi m$
 
 Thus, $\frac{\omega_0}{2\pi} = \frac{m}{N}$ where $\frac{m}{N}$ **must be a rational number**!
 
