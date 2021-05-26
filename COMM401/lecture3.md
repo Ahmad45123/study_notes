@@ -47,7 +47,7 @@ The above sum is called the convolution sum and is denoted by the symbol $*$
 
 | Property      | Rule                                         |
 | ------------- | -------------------------------------------- |
-| Memory        | $h(t) = k\delta(t)$                          |
+| Memoryless        | $h(t) = k\delta(t)$                          |
 | Invertibility | $h(t) * h_{inv}(t) = \delta(t)$              |
 | Causality     | $h(t) = 0$ for $t < 0$                       |
 | Stability     | $\int_{-\infty}^\infty \|h(t)\| dt < \infty$ |
