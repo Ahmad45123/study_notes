@@ -46,13 +46,14 @@ Because $e^{j2\pi n} = 1$ for any **integer** value of $n$!
 ## Notes in Periodicity
 - Periodic $\plusmn$ A-Periodic = A-Periodic
 - Periodic $\times$ A-Periodic = A-Periodic
+- Periodic $\times$ Periodic = Periodic
 - A-Periodic $\plusmn$ A-Periodic = MUST DRAW
-- Unit step functions $u(t)$ & $u[n]$ are aperiodic signals.
-- Any DC signal (constant) is periodic with arbitrary period.
-- Adding or multiplying by a constant doesn’t affect periodicity
 - Periodic $\plusmn$ Periodic = 
   - **For DT Signals**: Periodic
   - **For CT Signals**: Periodic IF $\frac{T_{01}}{T_{02}}$ or $\frac{\omega_{01}}{\omega_{02}}$ is rational number. The total period is the LCM of both periods.
+- Unit step functions $u(t)$ & $u[n]$ are aperiodic signals.
+- Any DC signal (constant) is periodic with arbitrary period.
+- Adding or multiplying by a constant doesn’t affect periodicity
 
 # Unit Step Functins
 ## Continuous Time
