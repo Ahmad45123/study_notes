@@ -1,6 +1,9 @@
 # Memory
 - Stores information in form of groups of bytes called **words**.
 - Data is read and written in terms of words and not single bits or bytes.
+- Number of address lines is $log_2(\text{No. Of Words})$
+- Number of data lines is equal to the word size.
+- Maximum number of bytes = Number of bits divided by 8.
 
 ## RAM
 - Main memory of computer system.
