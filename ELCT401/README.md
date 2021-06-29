@@ -6,3 +6,4 @@
 - [Lecture 4 & 5 - Power Calculation](./lecture4-5.html)
 - [Lecture 6 & 7 - Opamps](./lecture6-7.html)
 - [Lecture 8 - Resonance](./lecture8.html)
+- [Lecture 8 - Filters](./lecture9.html)
