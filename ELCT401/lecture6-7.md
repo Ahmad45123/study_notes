@@ -13,3 +13,7 @@ In ideal cases:
 - The gain is infinite.
 - The op amp is in a negative feedback configuration
 
+## To Solve
+- $V_{1} = V_{2}$
+- Do nodal analysis at both ends.
+- Never do a nodal at $V_{o}$
