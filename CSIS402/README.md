@@ -6,3 +6,4 @@
 - [Lecture 4 - Basic Computer I](./lecture4.html)
 - [Lecture 5 - Basic Computer II](./lecture5.html)
 - [Lecture 6 - Basic Computer III](./lecture6.html)
+- [Lecture 7 - Basic Computer IV](./lecture7.html)
