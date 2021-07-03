@@ -49,8 +49,46 @@ $$ T_0^\prime T_1^\prime T_2^\prime (\text{IEN}) (\text{FGI} + \text{FGO}): \ R 
 
 ## The interrupt cycle
 
-
+- The return address *(the current PC value)* is saved in memory at address 0.
+- PC value is replaced with 1 and the values of IEN and R are reset.
+- Location 1 in memory must be setup to branch unconditionally to I/O code.
+- The last instruction in I/O code must be to indirect branch to address zero. Also ION instruction should be called.
 
 $$ RT_0:\ AR \leftarrow 0,\ TR \leftarrow PC $$
 $$ RT_1:\ M[AR] \leftarrow TR,\ PC \leftarrow 0 $$
 $$ RT_2:\ PC \leftarrow PC + 1,\ IEN \leftarrow 0,\ R \leftarrow 0,\ SC \leftarrow 0 $$
+
+# Control Logic Unit
+It takes as input the decoder outputs, bits of IR, bits of AC, bits of DR and also values of the flipflops (I, S, E, R, IEN, FGI, FGI).
+
+### Controlling registers and memory
+The load, clear and increment can be controlled by scanning the list of operations and then deriving the circuit for the control.
+
+### Controlling flipflops
+We can either use JK-Flipflops or D-Flipflops. Use the excitation table to determine the equations!
+
+#### JK Flipflop
+| $Q_n$ | $Q_{n+1}$ | $J$ | $K$
+| --- | --- | --- | ---
+| 0 | 0 | 0 | X
+| 0 | 1 | 1 | X
+| 1 | 0 | X | 1
+| 1 | 1 | X | 0
+
+#### D Flipflop
+| $Q_n$ | $Q_{n+1}$ | $D$
+| --- | --- | ---
+|0 | 0 | 0
+|0 | 1 | 1
+|1 | 0 | 0
+|1 | 1 | 1
+
+### Controlling the bus
+It's implemented using an encoder.
+
+![picture 1](assets/lecture7-busDecoder.png)  
+
+The control for $x_1$, $x_2$, ..., $x_7$ are retreived from scanning the operations and making an equation for each.
+
+### Controlling the ALU
+Same as above.
