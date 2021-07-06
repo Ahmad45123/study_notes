@@ -7,3 +7,4 @@
 - [Lecture 6 & 7 - Opamps](./lecture6-7.html)
 - [Lecture 8 - Resonance](./lecture8.html)
 - [Lecture 9 - Filters](./lecture9.html)
+- [Lecture 9 - S Domain](./lecture10.html)
